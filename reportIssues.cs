@@ -25,7 +25,7 @@ namespace Prog7312_Poe
 
         private void btnReturn_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close(); //closes issues form
 
         }
 
