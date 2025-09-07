@@ -1,0 +1,12 @@
+C:\Users\nixyh\source\repos\Prog7312_Poe\bin\Debug\Prog7312_Poe.exe.config
+C:\Users\nixyh\source\repos\Prog7312_Poe\bin\Debug\Prog7312_Poe.exe
+C:\Users\nixyh\source\repos\Prog7312_Poe\bin\Debug\Prog7312_Poe.pdb
+C:\Users\nixyh\source\repos\Prog7312_Poe\obj\Debug\Prog7312_Poe.csproj.AssemblyReference.cache
+C:\Users\nixyh\source\repos\Prog7312_Poe\obj\Debug\Prog7312_Poe.Form1.resources
+C:\Users\nixyh\source\repos\Prog7312_Poe\obj\Debug\Prog7312_Poe.Properties.Resources.resources
+C:\Users\nixyh\source\repos\Prog7312_Poe\obj\Debug\Prog7312_Poe.reportIssues.resources
+C:\Users\nixyh\source\repos\Prog7312_Poe\obj\Debug\Prog7312_Poe.csproj.GenerateResource.cache
+C:\Users\nixyh\source\repos\Prog7312_Poe\obj\Debug\Prog7312_Poe.csproj.CoreCompileInputs.cache
+C:\Users\nixyh\source\repos\Prog7312_Poe\obj\Debug\Prog7312_Poe.exe
+C:\Users\nixyh\source\repos\Prog7312_Poe\obj\Debug\Prog7312_Poe.pdb
+C:\Users\nixyh\source\repos\Prog7312_Poe\obj\Debug\Prog7312_Poe.exe.config

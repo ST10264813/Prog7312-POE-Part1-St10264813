@@ -1,0 +1,184 @@
+﻿namespace Prog7312_Poe
+{
+    partial class reportIssues
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.prgressBar = new System.Windows.Forms.ProgressBar();
+            this.btnReturn = new System.Windows.Forms.Button();
+            this.btnSubmit = new System.Windows.Forms.Button();
+            this.rchTxtDescription = new System.Windows.Forms.RichTextBox();
+            this.txtLocation = new System.Windows.Forms.TextBox();
+            this.btnMedia = new System.Windows.Forms.Button();
+            this.comboCategory = new System.Windows.Forms.ComboBox();
+            this.lblLocation = new System.Windows.Forms.Label();
+            this.lblCategory = new System.Windows.Forms.Label();
+            this.lblDescription = new System.Windows.Forms.Label();
+            this.txtAttachment = new System.Windows.Forms.TextBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.SuspendLayout();
+            // 
+            // prgressBar
+            // 
+            this.prgressBar.Location = new System.Drawing.Point(257, 12);
+            this.prgressBar.Name = "prgressBar";
+            this.prgressBar.Size = new System.Drawing.Size(346, 23);
+            this.prgressBar.TabIndex = 0;
+            this.prgressBar.Click += new System.EventHandler(this.prgressBar_Click);
+            // 
+            // btnReturn
+            // 
+            this.btnReturn.Location = new System.Drawing.Point(29, 415);
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.Size = new System.Drawing.Size(149, 23);
+            this.btnReturn.TabIndex = 1;
+            this.btnReturn.Text = "Return to Home";
+            this.btnReturn.UseVisualStyleBackColor = true;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.Location = new System.Drawing.Point(309, 364);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(158, 43);
+            this.btnSubmit.TabIndex = 2;
+            this.btnSubmit.Text = "Submit Issue";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            // 
+            // rchTxtDescription
+            // 
+            this.rchTxtDescription.Location = new System.Drawing.Point(275, 159);
+            this.rchTxtDescription.Name = "rchTxtDescription";
+            this.rchTxtDescription.Size = new System.Drawing.Size(273, 158);
+            this.rchTxtDescription.TabIndex = 3;
+            this.rchTxtDescription.Text = "";
+            // 
+            // txtLocation
+            // 
+            this.txtLocation.Location = new System.Drawing.Point(326, 55);
+            this.txtLocation.Name = "txtLocation";
+            this.txtLocation.Size = new System.Drawing.Size(132, 22);
+            this.txtLocation.TabIndex = 4;
+            // 
+            // btnMedia
+            // 
+            this.btnMedia.Location = new System.Drawing.Point(447, 323);
+            this.btnMedia.Name = "btnMedia";
+            this.btnMedia.Size = new System.Drawing.Size(120, 23);
+            this.btnMedia.TabIndex = 5;
+            this.btnMedia.Text = "Attach Media";
+            this.btnMedia.UseVisualStyleBackColor = true;
+            this.btnMedia.Click += new System.EventHandler(this.btnMedia_Click);
+            // 
+            // comboCategory
+            // 
+            this.comboCategory.FormattingEnabled = true;
+            this.comboCategory.Location = new System.Drawing.Point(314, 101);
+            this.comboCategory.Name = "comboCategory";
+            this.comboCategory.Size = new System.Drawing.Size(153, 24);
+            this.comboCategory.TabIndex = 6;
+            this.comboCategory.SelectedIndexChanged += new System.EventHandler(this.comboCategory_SelectedIndexChanged);
+            // 
+            // lblLocation
+            // 
+            this.lblLocation.AutoSize = true;
+            this.lblLocation.Location = new System.Drawing.Point(125, 60);
+            this.lblLocation.Name = "lblLocation";
+            this.lblLocation.Size = new System.Drawing.Size(144, 16);
+            this.lblLocation.TabIndex = 7;
+            this.lblLocation.Text = "Enter Location of Issue:";
+            // 
+            // lblCategory
+            // 
+            this.lblCategory.AutoSize = true;
+            this.lblCategory.Location = new System.Drawing.Point(152, 101);
+            this.lblCategory.Name = "lblCategory";
+            this.lblCategory.Size = new System.Drawing.Size(117, 16);
+            this.lblCategory.TabIndex = 8;
+            this.lblCategory.Text = "Select a Category:";
+            this.lblCategory.Click += new System.EventHandler(this.lblCategory_Click);
+            // 
+            // lblDescription
+            // 
+            this.lblDescription.AutoSize = true;
+            this.lblDescription.Location = new System.Drawing.Point(57, 162);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(193, 16);
+            this.lblDescription.TabIndex = 9;
+            this.lblDescription.Text = "Enter a Description of the Issue:";
+            // 
+            // txtAttachment
+            // 
+            this.txtAttachment.Location = new System.Drawing.Point(218, 323);
+            this.txtAttachment.Name = "txtAttachment";
+            this.txtAttachment.Size = new System.Drawing.Size(223, 22);
+            this.txtAttachment.TabIndex = 10;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // reportIssues
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtAttachment);
+            this.Controls.Add(this.lblDescription);
+            this.Controls.Add(this.lblCategory);
+            this.Controls.Add(this.lblLocation);
+            this.Controls.Add(this.comboCategory);
+            this.Controls.Add(this.btnMedia);
+            this.Controls.Add(this.txtLocation);
+            this.Controls.Add(this.rchTxtDescription);
+            this.Controls.Add(this.btnSubmit);
+            this.Controls.Add(this.btnReturn);
+            this.Controls.Add(this.prgressBar);
+            this.Name = "reportIssues";
+            this.Text = "Report Issues";
+            this.Load += new System.EventHandler(this.reportIssues_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ProgressBar prgressBar;
+        private System.Windows.Forms.Button btnReturn;
+        private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.RichTextBox rchTxtDescription;
+        private System.Windows.Forms.TextBox txtLocation;
+        private System.Windows.Forms.Button btnMedia;
+        private System.Windows.Forms.ComboBox comboCategory;
+        private System.Windows.Forms.Label lblLocation;
+        private System.Windows.Forms.Label lblCategory;
+        private System.Windows.Forms.Label lblDescription;
+        private System.Windows.Forms.TextBox txtAttachment;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+    }
+}
