@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,7 +36,7 @@ namespace Prog7312_Poe
             openFileDialog1.Multiselect = false;//only allows for one file
             if (openFileDialog1.ShowDialog() == DialogResult.OK)//if file selected shows the file name in txtAttachment
             {
-                txtAttachment.Text = openFileDialog1.FileName;
+                txtAttachment.Text = Path.GetFileName(openFileDialog1.FileName);
             }
         }//(Microsoft, 2025)
 
@@ -110,10 +111,11 @@ namespace Prog7312_Poe
                 ReportList.Add(comboCategory.Text);
                 ReportList.Add(rchTxtDescription.Text);
                 ReportList.Add(txtAttachment.Text);
+                ReportList.Add(DateTime.Now.ToString());
 
                 string report = string.Join(", ", ReportList);
 
-                MessageBox.Show("Issue has been submitted!/n" + report, "Success");
+                MessageBox.Show("Issue has been submitted! \n" + report, "Success");
 
                 //clears form for new issue
                 txtAttachment.Clear();
@@ -132,6 +134,6 @@ namespace Prog7312_Poe
 }
 //references
 //DevExpress.2025.ComboBoxProperties.DropDownStyle Property . <https://docs.devexpress.com/AspNet/DevExpress.Web.comboBoxProperties.DropDownStyle?utm_source=SupportCenter&utm_medium=website&utm_campaign=docs-feedback&utm_content=T343861> [Accessed 5 September 2025].
-//Miscosoft., 2025. OpenFileDialog Class (System.Windows.Forms). [online] Microsoft.com. Available at: <https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.openfiledialog?view=windowsdesktop-9.0&redirectedfrom=MSDN> [Accessed 1 September 2025].
-//Stack Overflow, 2020. How to increase a ProgressBar Value according to the content of TextBoxes? [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/65061068/how-to-increase-a-progressbar-value-according-to-the-content-of-textboxes> [Accessed 1 September 2025].
+//Microsoft., 2025. OpenFileDialog Class (System.Windows.Forms). [online] Microsoft.com. Available at: <https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.openfiledialog?view=windowsdesktop-9.0&redirectedfrom=MSDN> [Accessed 1 September 2025].
 //Microsoft, 2025. How to dock and anchor controls - Windows Forms. [online] Microsoft.com. Available at: <https://learn.microsoft.com/en-us/dotnet/desktop/winforms/controls/how-to-dock-and-anchor> [Accessed 8 September 2025].
+//Stack Overflow, 2020. How to increase a ProgressBar Value according to the content of TextBoxes? [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/65061068/how-to-increase-a-progressbar-value-according-to-the-content-of-textboxes> [Accessed 1 September 2025].
