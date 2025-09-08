@@ -127,10 +127,11 @@ namespace Prog7312_Poe
             }
         }
 
-        
+
     }
 }
 //references
 //DevExpress.2025.ComboBoxProperties.DropDownStyle Property . <https://docs.devexpress.com/AspNet/DevExpress.Web.comboBoxProperties.DropDownStyle?utm_source=SupportCenter&utm_medium=website&utm_campaign=docs-feedback&utm_content=T343861> [Accessed 5 September 2025].
 //Miscosoft., 2025. OpenFileDialog Class (System.Windows.Forms). [online] Microsoft.com. Available at: <https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.openfiledialog?view=windowsdesktop-9.0&redirectedfrom=MSDN> [Accessed 1 September 2025].
 //Stack Overflow, 2020. How to increase a ProgressBar Value according to the content of TextBoxes? [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/65061068/how-to-increase-a-progressbar-value-according-to-the-content-of-textboxes> [Accessed 1 September 2025].
+//Microsoft, 2025. How to dock and anchor controls - Windows Forms. [online] Microsoft.com. Available at: <https://learn.microsoft.com/en-us/dotnet/desktop/winforms/controls/how-to-dock-and-anchor> [Accessed 8 September 2025].

@@ -53,7 +53,8 @@ namespace Prog7312_Poe
             this.prgressBar.Size = new System.Drawing.Size(560, 16);
             this.prgressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.prgressBar.TabIndex = 0;
-
+            this.prgressBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));//(Microsoft, 2025)
             this.prgressBar.Click += new System.EventHandler(this.prgressBar_Click);
             // 
             // btnReturn
@@ -67,6 +68,7 @@ namespace Prog7312_Poe
             this.btnReturn.TabIndex = 1;
             this.btnReturn.Text = " ⬅ Return to Home";
             this.btnReturn.UseVisualStyleBackColor = false;
+            this.btnReturn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
             // btnSubmit
@@ -80,6 +82,7 @@ namespace Prog7312_Poe
             this.btnSubmit.TabIndex = 2;
             this.btnSubmit.Text = "Submit Issue";
             this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btnSubmit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // rchTxtDescription
@@ -89,6 +92,9 @@ namespace Prog7312_Poe
             this.rchTxtDescription.Size = new System.Drawing.Size(560, 120);
             this.rchTxtDescription.TabIndex = 3;
             this.rchTxtDescription.Text = "";
+            this.rchTxtDescription.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+           | System.Windows.Forms.AnchorStyles.Left)
+           | System.Windows.Forms.AnchorStyles.Right)));
 
             // 
             // txtLocation
@@ -96,8 +102,9 @@ namespace Prog7312_Poe
             this.txtLocation.Location = new System.Drawing.Point(40, 100);
             this.txtLocation.Name = "txtLocation";
             this.txtLocation.Size = new System.Drawing.Size(560, 22);
-
             this.txtLocation.TabIndex = 4;
+            this.txtLocation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));
             // 
             // btnMedia
             // 
@@ -110,6 +117,8 @@ namespace Prog7312_Poe
             this.btnMedia.TabIndex = 5;
             this.btnMedia.Text = "Attach Media";
             this.btnMedia.UseVisualStyleBackColor = false;
+            this.btnMedia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom |
+                System.Windows.Forms.AnchorStyles.Right)));
             this.btnMedia.Click += new System.EventHandler(this.btnMedia_Click);
             // 
             // comboCategory
@@ -119,7 +128,8 @@ namespace Prog7312_Poe
             this.comboCategory.Name = "comboCategory";
             this.comboCategory.Size = new System.Drawing.Size(280, 24);
             this.comboCategory.TabIndex = 6;
-
+            this.comboCategory.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.comboCategory.SelectedIndexChanged += new System.EventHandler(this.comboCategory_SelectedIndexChanged);
             // 
             // lblLocation
@@ -131,7 +141,8 @@ namespace Prog7312_Poe
             this.lblLocation.Size = new System.Drawing.Size(265, 23);
             this.lblLocation.TabIndex = 7;
             this.lblLocation.Text = "Step 1: Enter Location of Issue *";
-
+            this.lblLocation.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top |
+                System.Windows.Forms.AnchorStyles.Left)));
             // 
             // lblCategory
             // 
@@ -143,6 +154,8 @@ namespace Prog7312_Poe
             this.lblCategory.TabIndex = 8;
             this.lblCategory.Text = "Step 2: Select a Category *";
 
+            this.lblCategory.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top
+               | System.Windows.Forms.AnchorStyles.Left)));
             this.lblCategory.Click += new System.EventHandler(this.lblCategory_Click);
             // 
             // lblDescription
@@ -154,6 +167,9 @@ namespace Prog7312_Poe
             this.lblDescription.Size = new System.Drawing.Size(339, 23);
             this.lblDescription.TabIndex = 9;
             this.lblDescription.Text = " Step 3: Enter a Description of the Issue *";
+            this.lblDescription.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top |
+                System.Windows.Forms.AnchorStyles.Left)));
+
 
             // 
             // txtAttachment
@@ -163,6 +179,9 @@ namespace Prog7312_Poe
             this.txtAttachment.ReadOnly = true;
             this.txtAttachment.Size = new System.Drawing.Size(430, 22);
             this.txtAttachment.TabIndex = 10;
+
+            this.txtAttachment.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+          | System.Windows.Forms.AnchorStyles.Right)));
             // 
             // openFileDialog1
             // 
@@ -177,6 +196,9 @@ namespace Prog7312_Poe
             this.lblAttachment.Size = new System.Drawing.Size(262, 23);
             this.lblAttachment.TabIndex = 11;
             this.lblAttachment.Text = "Step 4: Select an Attachment * ";
+            this.lblAttachment.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom |
+                System.Windows.Forms.AnchorStyles.Left)));
+            //(Microsoft,2025)
             //
             // reportIssues
             // 
