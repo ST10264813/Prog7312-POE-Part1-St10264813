@@ -1,8 +1,10 @@
 # Prog7312 POE Part 1
 ## Github Link
-
+https://github.com/ST10264813/Prog7312-POE-Part1-St10264813.git
 ## Youtube Link
 https://youtu.be/2fFpmJC5nK0
+## User Engagement Strategy
+ A strong user experience is the User Engagement Strategy used.
 ## Software Used
 Visual Studios 2022 Version 17.14.13
 <br>
