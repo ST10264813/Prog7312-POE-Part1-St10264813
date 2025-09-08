@@ -126,6 +126,8 @@ namespace Prog7312_Poe
                 MessageBox.Show("Please fill out all fields.", "Error");//message if not all fields are filled
             }
         }
+
+        
     }
 }
 //references

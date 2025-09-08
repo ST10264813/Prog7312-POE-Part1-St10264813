@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\reportissues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|solutionrelative:reportissues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|c:\\users\\nixyh\\source\\repos\\prog7312_poe\\reportissues.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\reportissues.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|solutionrelative:reportissues.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\reportissues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|solutionrelative:reportissues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|c:\\users\\nixyh\\source\\repos\\prog7312_poe\\reportissues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|solutionrelative:reportissues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9515E4E9-5E50-4C1A-99CF-C0B1D0148396}|Prog7312_Poe.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
@@ -58,62 +54,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "reportIssues.Designer.cs",
               "DocumentMoniker": "C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\reportIssues.Designer.cs",
               "RelativeDocumentMoniker": "reportIssues.Designer.cs",
-              "ToolTip": "C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\reportIssues.Designer.cs",
-              "RelativeToolTip": "reportIssues.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\reportIssues.Designer.cs*",
+              "RelativeToolTip": "reportIssues.Designer.cs*",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAgwM8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T17:21:06.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T14:08:32.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "reportIssues.cs [Design]",
               "DocumentMoniker": "C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\reportIssues.cs",
               "RelativeDocumentMoniker": "reportIssues.cs",
-              "ToolTip": "C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\reportIssues.cs [Design]",
-              "RelativeToolTip": "reportIssues.cs [Design]",
+              "ToolTip": "C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\reportIssues.cs [Design]*",
+              "RelativeToolTip": "reportIssues.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T18:36:50.577Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "reportIssues.cs",
               "DocumentMoniker": "C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\reportIssues.cs",
               "RelativeDocumentMoniker": "reportIssues.cs",
-              "ToolTip": "C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\reportIssues.cs",
-              "RelativeToolTip": "reportIssues.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\reportIssues.cs*",
+              "RelativeToolTip": "reportIssues.cs*",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAlwIEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T18:37:19.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\nixyh\\source\\repos\\Prog7312_Poe\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAzwCgAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T18:34:14.802Z"
             }

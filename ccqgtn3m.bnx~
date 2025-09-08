@@ -1,6 +1,4 @@
-﻿using System.Windows.Forms;
-
-namespace Prog7312_Poe
+﻿namespace Prog7312_Poe
 {
     partial class reportIssues
     {
@@ -42,18 +40,15 @@ namespace Prog7312_Poe
             this.lblDescription = new System.Windows.Forms.Label();
             this.txtAttachment = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.lblAttachment = new System.Windows.Forms.Label();
-
             this.SuspendLayout();
             // 
             // prgressBar
             // 
-            this.prgressBar.Location = new System.Drawing.Point(44, 26);
+            this.prgressBar.Location = new System.Drawing.Point(40, 540);
             this.prgressBar.Name = "prgressBar";
-            this.prgressBar.Size = new System.Drawing.Size(560, 16);
+            this.prgressBar.Size = new System.Drawing.Size(560, 8);
             this.prgressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.prgressBar.TabIndex = 0;
-
             this.prgressBar.Click += new System.EventHandler(this.prgressBar_Click);
             // 
             // btnReturn
@@ -63,7 +58,7 @@ namespace Prog7312_Poe
             this.btnReturn.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.btnReturn.Location = new System.Drawing.Point(40, 480);
             this.btnReturn.Name = "btnReturn";
-            this.btnReturn.Size = new System.Drawing.Size(191, 36);
+            this.btnReturn.Size = new System.Drawing.Size(120, 36);
             this.btnReturn.TabIndex = 1;
             this.btnReturn.Text = " ⬅ Return to Home";
             this.btnReturn.UseVisualStyleBackColor = false;
@@ -89,14 +84,12 @@ namespace Prog7312_Poe
             this.rchTxtDescription.Size = new System.Drawing.Size(560, 120);
             this.rchTxtDescription.TabIndex = 3;
             this.rchTxtDescription.Text = "";
-
             // 
             // txtLocation
             // 
             this.txtLocation.Location = new System.Drawing.Point(40, 100);
             this.txtLocation.Name = "txtLocation";
             this.txtLocation.Size = new System.Drawing.Size(560, 22);
-
             this.txtLocation.TabIndex = 4;
             // 
             // btnMedia
@@ -106,7 +99,7 @@ namespace Prog7312_Poe
             this.btnMedia.ForeColor = System.Drawing.Color.White;
             this.btnMedia.Location = new System.Drawing.Point(480, 405);
             this.btnMedia.Name = "btnMedia";
-            this.btnMedia.Size = new System.Drawing.Size(154, 37);
+            this.btnMedia.Size = new System.Drawing.Size(154, 30);
             this.btnMedia.TabIndex = 5;
             this.btnMedia.Text = "Attach Media";
             this.btnMedia.UseVisualStyleBackColor = false;
@@ -119,7 +112,6 @@ namespace Prog7312_Poe
             this.comboCategory.Name = "comboCategory";
             this.comboCategory.Size = new System.Drawing.Size(280, 24);
             this.comboCategory.TabIndex = 6;
-
             this.comboCategory.SelectedIndexChanged += new System.EventHandler(this.comboCategory_SelectedIndexChanged);
             // 
             // lblLocation
@@ -128,33 +120,30 @@ namespace Prog7312_Poe
             this.lblLocation.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.lblLocation.Location = new System.Drawing.Point(40, 80);
             this.lblLocation.Name = "lblLocation";
-            this.lblLocation.Size = new System.Drawing.Size(265, 23);
+            this.lblLocation.Size = new System.Drawing.Size(252, 23);
             this.lblLocation.TabIndex = 7;
-            this.lblLocation.Text = "Step 1: Enter Location of Issue *";
-
+            this.lblLocation.Text = "Step 1: Enter Location of Issue";
             // 
             // lblCategory
             // 
             this.lblCategory.AutoSize = true;
             this.lblCategory.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.lblCategory.Location = new System.Drawing.Point(40, 144);
+            this.lblCategory.Location = new System.Drawing.Point(40, 150);
             this.lblCategory.Name = "lblCategory";
-            this.lblCategory.Size = new System.Drawing.Size(226, 23);
+            this.lblCategory.Size = new System.Drawing.Size(218, 23);
             this.lblCategory.TabIndex = 8;
-            this.lblCategory.Text = "Step 2: Select a Category *";
-
+            this.lblCategory.Text = "Step 2: Select a Category:";
             this.lblCategory.Click += new System.EventHandler(this.lblCategory_Click);
             // 
             // lblDescription
             // 
             this.lblDescription.AutoSize = true;
             this.lblDescription.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.lblDescription.Location = new System.Drawing.Point(36, 214);
+            this.lblDescription.Location = new System.Drawing.Point(40, 220);
             this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(339, 23);
+            this.lblDescription.Size = new System.Drawing.Size(331, 23);
             this.lblDescription.TabIndex = 9;
-            this.lblDescription.Text = " Step 3: Enter a Description of the Issue *";
-
+            this.lblDescription.Text = " Step 3: Enter a Description of the Issue:";
             // 
             // txtAttachment
             // 
@@ -168,24 +157,12 @@ namespace Prog7312_Poe
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // lblAttachment
-            // 
-            this.lblAttachment.AutoSize = true;
-            this.lblAttachment.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.lblAttachment.Location = new System.Drawing.Point(44, 383);
-            this.lblAttachment.Name = "lblAttachment";
-            this.lblAttachment.Size = new System.Drawing.Size(262, 23);
-            this.lblAttachment.TabIndex = 11;
-            this.lblAttachment.Text = "Step 4: Select an Attachment * ";
-            //
             // reportIssues
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(850, 572);
-
-            this.Controls.Add(this.lblAttachment);
+            this.ClientSize = new System.Drawing.Size(850, 520);
             this.Controls.Add(this.txtAttachment);
             this.Controls.Add(this.lblDescription);
             this.Controls.Add(this.lblCategory);
@@ -197,7 +174,6 @@ namespace Prog7312_Poe
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.prgressBar);
-            this.MinimumSize = new System.Drawing.Size(600, 500);
             this.Name = "reportIssues";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Report an Issue";
@@ -221,7 +197,5 @@ namespace Prog7312_Poe
         private System.Windows.Forms.Label lblDescription;
         private System.Windows.Forms.TextBox txtAttachment;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.Label lblAttachment;
-
     }
 }

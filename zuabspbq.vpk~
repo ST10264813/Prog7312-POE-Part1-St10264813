@@ -43,17 +43,17 @@ namespace Prog7312_Poe
             this.txtAttachment = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.lblAttachment = new System.Windows.Forms.Label();
-
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.SuspendLayout();
             // 
             // prgressBar
             // 
-            this.prgressBar.Location = new System.Drawing.Point(44, 26);
+            this.prgressBar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.prgressBar.Location = new System.Drawing.Point(0, 0);
             this.prgressBar.Name = "prgressBar";
-            this.prgressBar.Size = new System.Drawing.Size(560, 16);
+            this.prgressBar.Size = new System.Drawing.Size(850, 572);
             this.prgressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.prgressBar.TabIndex = 0;
-
             this.prgressBar.Click += new System.EventHandler(this.prgressBar_Click);
             // 
             // btnReturn
@@ -67,6 +67,7 @@ namespace Prog7312_Poe
             this.btnReturn.TabIndex = 1;
             this.btnReturn.Text = " ⬅ Return to Home";
             this.btnReturn.UseVisualStyleBackColor = false;
+            this.btnReturn.Dock = DockStyle.Fill;
             this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
             // btnSubmit
@@ -80,23 +81,25 @@ namespace Prog7312_Poe
             this.btnSubmit.TabIndex = 2;
             this.btnSubmit.Text = "Submit Issue";
             this.btnSubmit.UseVisualStyleBackColor = false;
+
+            this.btnSubmit.Dock = DockStyle.Fill;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // rchTxtDescription
             // 
-            this.rchTxtDescription.Location = new System.Drawing.Point(40, 240);
+            this.rchTxtDescription.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rchTxtDescription.Location = new System.Drawing.Point(0, 0);
             this.rchTxtDescription.Name = "rchTxtDescription";
-            this.rchTxtDescription.Size = new System.Drawing.Size(560, 120);
+            this.rchTxtDescription.Size = new System.Drawing.Size(850, 572);
             this.rchTxtDescription.TabIndex = 3;
             this.rchTxtDescription.Text = "";
-
             // 
             // txtLocation
             // 
-            this.txtLocation.Location = new System.Drawing.Point(40, 100);
+            this.txtLocation.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtLocation.Location = new System.Drawing.Point(0, 0);
             this.txtLocation.Name = "txtLocation";
-            this.txtLocation.Size = new System.Drawing.Size(560, 22);
-
+            this.txtLocation.Size = new System.Drawing.Size(850, 22);
             this.txtLocation.TabIndex = 4;
             // 
             // btnMedia
@@ -110,51 +113,52 @@ namespace Prog7312_Poe
             this.btnMedia.TabIndex = 5;
             this.btnMedia.Text = "Attach Media";
             this.btnMedia.UseVisualStyleBackColor = false;
+            this.btnMedia.Dock = DockStyle.Fill;
             this.btnMedia.Click += new System.EventHandler(this.btnMedia_Click);
             // 
             // comboCategory
             // 
+            this.comboCategory.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboCategory.FormattingEnabled = true;
-            this.comboCategory.Location = new System.Drawing.Point(40, 170);
+            this.comboCategory.Location = new System.Drawing.Point(0, 0);
             this.comboCategory.Name = "comboCategory";
-            this.comboCategory.Size = new System.Drawing.Size(280, 24);
+            this.comboCategory.Size = new System.Drawing.Size(850, 24);
             this.comboCategory.TabIndex = 6;
-
             this.comboCategory.SelectedIndexChanged += new System.EventHandler(this.comboCategory_SelectedIndexChanged);
             // 
             // lblLocation
             // 
             this.lblLocation.AutoSize = true;
+            this.lblLocation.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblLocation.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.lblLocation.Location = new System.Drawing.Point(40, 80);
+            this.lblLocation.Location = new System.Drawing.Point(0, 0);
             this.lblLocation.Name = "lblLocation";
             this.lblLocation.Size = new System.Drawing.Size(265, 23);
             this.lblLocation.TabIndex = 7;
             this.lblLocation.Text = "Step 1: Enter Location of Issue *";
-
             // 
             // lblCategory
             // 
             this.lblCategory.AutoSize = true;
+            this.lblCategory.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblCategory.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.lblCategory.Location = new System.Drawing.Point(40, 144);
+            this.lblCategory.Location = new System.Drawing.Point(0, 0);
             this.lblCategory.Name = "lblCategory";
             this.lblCategory.Size = new System.Drawing.Size(226, 23);
             this.lblCategory.TabIndex = 8;
             this.lblCategory.Text = "Step 2: Select a Category *";
-
             this.lblCategory.Click += new System.EventHandler(this.lblCategory_Click);
             // 
             // lblDescription
             // 
             this.lblDescription.AutoSize = true;
+            this.lblDescription.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblDescription.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.lblDescription.Location = new System.Drawing.Point(36, 214);
+            this.lblDescription.Location = new System.Drawing.Point(0, 0);
             this.lblDescription.Name = "lblDescription";
             this.lblDescription.Size = new System.Drawing.Size(339, 23);
             this.lblDescription.TabIndex = 9;
             this.lblDescription.Text = " Step 3: Enter a Description of the Issue *";
-
             // 
             // txtAttachment
             // 
@@ -163,6 +167,8 @@ namespace Prog7312_Poe
             this.txtAttachment.ReadOnly = true;
             this.txtAttachment.Size = new System.Drawing.Size(430, 22);
             this.txtAttachment.TabIndex = 10;
+            this.txtAttachment.Dock = DockStyle.Fill;
+
             // 
             // openFileDialog1
             // 
@@ -177,14 +183,59 @@ namespace Prog7312_Poe
             this.lblAttachment.Size = new System.Drawing.Size(262, 23);
             this.lblAttachment.TabIndex = 11;
             this.lblAttachment.Text = "Step 4: Select an Attachment * ";
+            this.lblAttachment.Dock = DockStyle.Fill;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 7;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(850, 572);
+            this.tableLayoutPanel1.TabIndex = 12;
+
             //
+            //controls for table
+            //
+            this.tableLayoutPanel1.Controls.Add(this.prgressBar, 0, 0);
+            this.tableLayoutPanel1.SetColumnSpan(this.prgressBar, 2);
+
+            this.tableLayoutPanel1.Controls.Add(this.lblLocation, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txtLocation, 0, 1);
+            this.tableLayoutPanel1.SetColumnSpan(this.txtLocation, 2);
+
+            this.tableLayoutPanel1.Controls.Add(this.lblCategory, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.comboCategory, 0, 2);
+            this.tableLayoutPanel1.SetColumnSpan(this.comboCategory, 2);
+
+            this.tableLayoutPanel1.Controls.Add(this.lblDescription, 0, 3);
+            this.tableLayoutPanel1.SetColumnSpan(this.lblDescription, 2);
+            this.tableLayoutPanel1.Controls.Add(this.rchTxtDescription, 0, 3);
+
+            this.tableLayoutPanel1.Controls.Add(this.lblAttachment, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.txtAttachment, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.btnMedia, 1, 4);
+
+            this.tableLayoutPanel1.Controls.Add(this.btnReturn, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(this.btnSubmit, 1, 5);
+            // 
             // reportIssues
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(850, 572);
-
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.lblAttachment);
             this.Controls.Add(this.txtAttachment);
             this.Controls.Add(this.lblDescription);
@@ -222,6 +273,6 @@ namespace Prog7312_Poe
         private System.Windows.Forms.TextBox txtAttachment;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Label lblAttachment;
-
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }
